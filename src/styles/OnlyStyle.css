@@ -1,0 +1,92 @@
+.Tasks-Form {
+
+    margin-top: 100px;
+    position: relative;
+    padding: 70px;
+    text-align: center;
+    height: 50%;
+    border-radius: 25px;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.54);
+
+}
+
+.DeleteB, .EditB {
+
+    font-size: medium;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 8px;
+    color: rgba(202, 255, 255, 0.7);;
+    border-color: rgba(202, 197, 214, 0.7);
+    background: linear-gradient(45deg, #00ff08, #00ccff, #9900ff);
+    background-size: 300% 300%;
+    animation: gradient 10s alternate infinite;
+
+}
+
+.background--custom {
+    background: linear-gradient(45deg, #00ff08, #00ccff, #9900ff);
+    background-size: 300% 300%;
+    animation: gradient 10s alternate infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
+
+.AddB {
+
+    background-color: rgba(202, 197, 214, 0.7);
+    border-color: rgba(202, 197, 214, 0.7);
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px;
+    mix-blend-mode: overlay;
+
+}
+
+.ToDos {
+
+    text-align: left;
+    font-size: larger;
+    border-radius: 10px;
+    background-color: rgba(202, 255, 255, 0.7);
+    padding: 5px;
+
+}
+
+.TaskRow {
+
+    margin-bottom: 20px;
+
+}
+
+.Inpt {
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 8px;
+    height: 45px;
+
+}
+
+.ListRow {
+
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+
+}
